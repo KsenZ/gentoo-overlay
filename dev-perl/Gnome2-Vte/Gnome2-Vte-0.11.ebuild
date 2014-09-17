@@ -25,8 +25,4 @@ DEPEND="${RDEPEND}
 	>=dev-perl/extutils-depends-0.202
 	virtual/pkgconfig"
 
-SRC_TEST=do
-
-src_install() {
-    perl-module_src_install
-}
+SRC_TEST="do"
