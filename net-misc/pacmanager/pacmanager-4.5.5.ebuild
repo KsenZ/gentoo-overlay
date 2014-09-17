@@ -22,7 +22,7 @@ RDEPEND="${DEPEND}
     dev-perl/gtk2-gladexml
     dev-perl/Gtk2-Ex-Simple-List
     dev-perl/Gnome2-Vte
-    dev-perl/gnome2-gconf
+    dev-perl/Gnome2-GConf
     dev-perl/crypt-cbc
     dev-perl/Crypt-Blowfish
     dev-perl/Crypt-Rijndael
