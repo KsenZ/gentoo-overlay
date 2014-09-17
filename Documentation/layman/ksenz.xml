@@ -2,7 +2,7 @@
 <layman>
     <overlay
 	type	= "git"
-	src	= "git://github.com/KsenZ/gentoo-overlay/gentoo-overlay.git"
+	src	= "git://github.com/KsenZ/gentoo-overlay.git"
 	contact	= "xmpp:ksenz@gentoo.ru"
 	name	= "ksenz">
 		<link>https://github.com/KsenZ/gentoo-overlay</link>
