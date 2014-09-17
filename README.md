@@ -5,7 +5,7 @@ My Gentoo overlay
 
 > \# layman -o 'https://raw.githubusercontent.com/KsenZ/gentoo-overlay/master/Documentation/layman/ksenz.xml' -f -k -a ksenz
 
-##For PAC manager (https://sites.google.com/site/davidtv/)##
+##[For PAC manager] (https://sites.google.com/site/davidtv/)##
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.mask/pacmanager /etc/portage/package.mask/pacmanager
 
