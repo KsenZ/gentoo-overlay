@@ -1,7 +1,5 @@
-gentoo-overlay
+My Gentoo overlay
 ==============
-
-Gentoo overlay
 
 #Install
 
