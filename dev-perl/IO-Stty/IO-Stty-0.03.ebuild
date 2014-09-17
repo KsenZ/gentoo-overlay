@@ -4,7 +4,6 @@
 
 EAPI=4
 
-MY_PN=IO-Stty
 MODULE_AUTHOR=TODDR
 MODULE_VERSION=0.03
 inherit perl-module
