@@ -1,3 +1,4 @@
 dev-perl/Gnome2-Vte ~amd64
 dev-perl/Gtk2-SourceView2 ~amd64
 net-misc/pacmanager ~amd64
+dev-perl/Net-ARP ~amd64
