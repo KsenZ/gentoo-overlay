@@ -2,3 +2,4 @@ dev-perl/Gnome2-Vte **
 dev-perl/Gtk2-SourceView2 **
 net-misc/pacmanager **
 dev-perl/Net-ARP **
+dev-perl/Gnome2-GConf **
