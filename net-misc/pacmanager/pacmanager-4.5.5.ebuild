@@ -37,7 +37,7 @@ RDEPEND="${DEPEND}
 
 src_prepare() {
     # external dependencies dev-perl/Gnome2-Vte
-    rm -rf pac/lib/ex/vte*
+    #rm -rf pac/lib/ex/vte*
 
     # change the references to the final 'lib' and 'res' locations
     einfo "Fixing lib and ref locations..."
