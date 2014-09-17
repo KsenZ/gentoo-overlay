@@ -27,6 +27,7 @@ RDEPEND="${DEPEND}
     dev-perl/Crypt-Blowfish
     dev-perl/Crypt-Rijndael
     dev-perl/Gtk2-SourceView2
+    dev-perl/IO-Stty
     dev-perl/Net-ARP
     dev-perl/Expect
     dev-perl/Socket6
