@@ -18,8 +18,10 @@ IUSE=""
 RDEPEND="gnome-base/gconf:2
     >=dev-perl/glib-perl-1.120
     dev-lang/perl"
+
 DEPEND="${RDEPEND}
     >=dev-perl/extutils-pkgconfig-1.03
     >=dev-perl/extutils-depends-0.202
     virtual/pkgconfig"
+
 SRC_TEST=do

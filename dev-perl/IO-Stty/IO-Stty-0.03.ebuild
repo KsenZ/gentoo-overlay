@@ -20,4 +20,4 @@ RDEPEND="dev-lang/perl"
 DEPEND="${RDEPEND}
     >=virtual/perl-Module-Build-0.35"
 
-SRC_TEST="do"
+SRC_TEST=do

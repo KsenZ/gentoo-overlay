@@ -71,9 +71,9 @@ src_install() {
 
 pkg_postinst()
 {
-einfo "${PN} supports ssh, sftp, ftp, xfreerdp, rdesktop, vncviewer,"
-einfo "cu/tip/remote-tty, mosh, cadaver connections. Please install those tools"
-einfo "if you need them."
-einfo
-einfo "Please install keepassx if you need a password manager."
+    einfo "${PN} supports ssh, sftp, ftp, xfreerdp, rdesktop, vncviewer,"
+    einfo "cu/tip/remote-tty, mosh, cadaver connections. Please install those tools"
+    einfo "if you need them."
+    einfo
+    einfo "Please install keepassx if you need a password manager."
 }

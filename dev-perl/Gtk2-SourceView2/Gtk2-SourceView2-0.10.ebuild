@@ -17,9 +17,12 @@ IUSE=""
 
 RDEPEND="dev-lang/perl
     dev-perl/gtk2-perl"
+
 DEPEND="$RDEPEND
     dev-perl/glib-perl
     dev-perl/extutils-depends
     dev-perl/extutils-pkgconfig
     virtual/perl-ExtUtils-MakeMaker
     x11-libs/gtksourceview:2.0"
+
+SRC_TEST=do

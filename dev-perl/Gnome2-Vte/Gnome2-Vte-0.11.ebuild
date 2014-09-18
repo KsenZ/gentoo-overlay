@@ -25,4 +25,4 @@ DEPEND="${RDEPEND}
 	>=dev-perl/extutils-depends-0.202
 	virtual/pkgconfig"
 
-SRC_TEST="do"
+SRC_TEST=do
