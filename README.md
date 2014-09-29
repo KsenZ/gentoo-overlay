@@ -17,6 +17,7 @@ My Gentoo overlay
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/insync /etc/portage/package.keywords/insync
 
-###Keywords for Komodo Edit
+###Keywords and USE flags for Komodo Edit
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/komodo-edit-bin /etc/portage/package.keywords/komodo-edit-bin
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.use/komodo-edit-bin /etc/portage/package.use/komodo-edit-bin
