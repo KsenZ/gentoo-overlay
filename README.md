@@ -12,3 +12,11 @@ My Gentoo overlay
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.use/pacmanager /etc/portage/package.use/pacmanager
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/pacmanager /etc/portage/package.keywords/pacmanager
+
+###Keywords for Insync
+
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/insync /etc/portage/package.keywords/insync
+
+###Keywords for Komodo Edit
+
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/komodo-edit-bin /etc/portage/package.keywords/komodo-edit-bin
