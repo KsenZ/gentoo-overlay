@@ -20,4 +20,5 @@ My Gentoo overlay
 ###Keywords and USE flags for Komodo Edit
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/komodo-edit-bin /etc/portage/package.keywords/komodo-edit-bin
+
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.use/komodo-edit-bin /etc/portage/package.use/komodo-edit-bin
