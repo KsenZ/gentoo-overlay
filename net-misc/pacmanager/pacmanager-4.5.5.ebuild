@@ -31,7 +31,7 @@ RDEPEND="${DEPEND}
     dev-perl/Net-ARP
     dev-perl/Expect
     dev-perl/Socket6
-    dev-perl/yaml
+    dev-perl/YAML
     virtual/perl-Storable 
     dev-perl/Gtk2-Unique
     dev-libs/ossp-uuid[perl]"
