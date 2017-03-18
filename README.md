@@ -1,11 +1,11 @@
 My Gentoo overlay
 ==============
 
-###Install overlay###
+### Install overlay ###
 
 > \# layman -o 'https://raw.githubusercontent.com/KsenZ/gentoo-overlay/master/Documentation/layman/ksenz.xml' -f -k -a ksenz
 
-###Keywords, USE flags and mask packages for [PAC manager] (https://sites.google.com/site/davidtv/)###
+### Keywords, USE flags and mask packages for [PAC manager] (https://sites.google.com/site/davidtv/) ###
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.mask/pacmanager /etc/portage/package.mask/pacmanager
 
@@ -13,11 +13,11 @@ My Gentoo overlay
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/pacmanager /etc/portage/package.keywords/pacmanager
 
-###Keywords for Insync
+### Keywords for Insync
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/insync /etc/portage/package.keywords/insync
 
-###Keywords and USE flags for Komodo Edit
+### Keywords and USE flags for Komodo Edit
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/komodo-edit-bin /etc/portage/package.keywords/komodo-edit-bin
 
