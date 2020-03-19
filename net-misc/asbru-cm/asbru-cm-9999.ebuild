@@ -40,7 +40,7 @@ RDEPEND="freerdp? ( net-misc/freerdp )
 DEPEND="${RDEPEND}"
 
 src_prepare() {
-	find "${PN}" lib utils -type f | while read f
+	find lib utils -type f | while read f
 	do
 		sed -i -e "s@\$RealBin[^']*\('\?\)\([./]*\)/lib@\1/usr/$(get_libdir)/${PN}@g" "${f}"
 		sed -i -e "s@\$RealBin[^']*\('\?\)\([./]*\)/res@\1/usr/share/${PN}@g" "${f}"
