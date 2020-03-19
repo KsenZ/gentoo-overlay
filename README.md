@@ -11,10 +11,10 @@ My Gentoo overlay
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.use/asbru-cm /etc/portage/package.use/asbru-cm
 
-> \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/asbru-cm /etc/portage/package.keywords/asbru-cm
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/asbru-cm /etc/portage/package.accept_keywords/asbru-cm
 
 ### Keywords and USE flags for Komodo Edit
 
-> \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/komodo-edit-bin /etc/portage/package.keywords/komodo-edit-bin
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/komodo-edit-bin /etc/portage/package.accept_keywords/komodo-edit-bin
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.use/komodo-edit-bin /etc/portage/package.use/komodo-edit-bin
