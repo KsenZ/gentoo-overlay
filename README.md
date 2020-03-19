@@ -5,13 +5,13 @@ My Gentoo overlay
 
 > \# layman -o 'https://raw.githubusercontent.com/KsenZ/gentoo-overlay/master/Documentation/layman/ksenz.xml' -f -k -a ksenz
 
-### Keywords, USE flags and mask packages for [PAC manager] (https://sites.google.com/site/davidtv/) ###
+### Keywords, USE flags and mask packages for [Ásbrú Connection Manager] (https://www.asbru-cm.net/) ###
 
-> \# ln -s /var/lib/layman/ksenz/Documentation/package.mask/pacmanager /etc/portage/package.mask/pacmanager
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.mask/asbru-cm /etc/portage/package.mask/asbru-cm
 
-> \# ln -s /var/lib/layman/ksenz/Documentation/package.use/pacmanager /etc/portage/package.use/pacmanager
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.use/asbru-cm /etc/portage/package.use/asbru-cm
 
-> \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/pacmanager /etc/portage/package.keywords/pacmanager
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.keywords/asbru-cm /etc/portage/package.keywords/asbru-cm
 
 ### Keywords and USE flags for Komodo Edit
 
