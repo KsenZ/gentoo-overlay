@@ -1,11 +1,13 @@
 <?xml version="1.0" ?>
-<layman>
-    <overlay
-	type	= "git"
-	src	= "git://github.com/KsenZ/gentoo-overlay.git"
-	contact	= "xmpp:ksenz@gentoo.ru"
-	name	= "ksenz">
-		<link>https://github.com/KsenZ/gentoo-overlay</link>
-		<description>KsenZ Gentoo overlay</description>
-    </overlay>
-</layman>
+
+<repositories version="1.0">
+    <repo priority="50" quality="experimental" status="unofficial">
+	<name>ksenz</name>
+	<description>KsenZ Gentoo overlay</description>
+	<homepage>https://github.com/KsenZ/gentoo-overlay</homepage>
+	<owner>
+	    <email>aksenzov@gmail.com</email>
+	</owner>
+	<source type="git">git://github.com/KsenZ/gentoo-overlay.git</source>
+    </repo>
+</repositories>
