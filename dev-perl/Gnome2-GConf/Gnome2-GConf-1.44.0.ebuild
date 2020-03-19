@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 MODULE_AUTHOR=TSCH
 MODULE_VERSION=1.044
@@ -20,8 +20,8 @@ RDEPEND="gnome-base/gconf:2
     dev-lang/perl"
 
 DEPEND="${RDEPEND}
-    >=dev-perl/extutils-pkgconfig-1.03
-    >=dev-perl/extutils-depends-0.202
+    >=dev-perl/ExtUtils-Depends-0.202
+    dev-perl/ExtUtils-PkgConfig
     virtual/pkgconfig"
 
 SRC_TEST=do

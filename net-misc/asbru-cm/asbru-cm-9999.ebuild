@@ -7,7 +7,7 @@ inherit bash-completion-r1 eutils gnome2 multilib
 
 DESCRIPTION="Asbru CM is a user interface that helps organizing remote terminal sessions"
 HOMEPAGE="https://www.asbru-cm.net/"
-SRC_URI="https://github.com/${PN}/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/${PN}/${PN}.git"
 
 LICENSE="GPL-3"
 SLOT="0"
