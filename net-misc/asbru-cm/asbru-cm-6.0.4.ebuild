@@ -47,9 +47,6 @@ src_prepare() {
 		sed -i -e "s@use KeePass@use File::KeePass@g" "${f}"
 	done
 
-	# https://github.com/asbru-cm/asbru-cm/pull/64
-	epatch "${FILESDIR}/${P}-bash-completion.patch"
-
 	eapply_user
 }
 
