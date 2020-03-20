@@ -3,7 +3,7 @@ My Gentoo overlay
 
 ### Install overlay ###
 
-> \# layman -o 'https://raw.githubusercontent.com/KsenZ/gentoo-overlay/master/Documentation/layman/ksenz.xml' -f -k -a ksenz
+> \# layman -o https://raw.githubusercontent.com/KsenZ/gentoo-overlay/master/repositories.xml -f -a ksenz
 
 ### Keywords, USE flags and mask packages for [Ásbrú Connection Manager] (https://www.asbru-cm.net/) ###
 
