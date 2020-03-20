@@ -3,7 +3,7 @@
 <repositories version="1.0">
     <repo priority="50" quality="experimental" status="unofficial">
         <name>ksenz</name>
-        <description>KsenZ Gentoo overlay</description>
+        <description>KsenZ personal Gentoo overlay</description>
         <homepage>https://github.com/KsenZ/gentoo-overlay</homepage>
         <owner>
             <email>aksenzov@gmail.com</email>
