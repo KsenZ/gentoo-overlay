@@ -49,8 +49,6 @@ src_prepare() {
 		sed -i -e "s@use KeePass@use File::KeePass@g" "${f}"
 	done
 
-	sed -e '1742,1753s/^/#/' -i /usr/share/perl5/vendor_perl/Gtk3.pm
-
 	eapply_user
 }
 
@@ -82,6 +80,7 @@ src_install() {
 }
 
 pkg_postinst() {
+	sed -e '1742,1753s/^/#/' -i /usr/lib64/perl5/vendor_perl/5.30.1/Gtk3.pm
 	gnome2_icon_cache_update
 }
 
