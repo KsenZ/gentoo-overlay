@@ -21,6 +21,7 @@ RDEPEND="freerdp? ( net-misc/freerdp )
 	vnc? ( net-misc/tigervnc )
 	webdav? ( net-misc/cadaver )
 	dev-libs/ossp-uuid[perl]
+	x11-libs/libwnck
 	dev-perl/Crypt-Blowfish
 	dev-perl/Crypt-CBC
 	dev-perl/Crypt-Rijndael
@@ -47,6 +48,8 @@ src_prepare() {
 #		sed -i -e "s@\$RealBin[^']*\('\?\)\([./]*\)/res@\1/usr/share/${PN}@g" "${f}"
 		sed -i -e "s@use KeePass@use File::KeePass@g" "${f}"
 	done
+
+	sed -e '1742,1753s/^/#/' -i /usr/share/perl5/vendor_perl/Gtk3.pm
 
 	eapply_user
 }
