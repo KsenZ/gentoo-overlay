@@ -42,8 +42,8 @@ DEPEND="${RDEPEND}"
 src_prepare() {
 	find lib utils -type f | while read f
 	do
-		sed -i -e "s@\$RealBin[^']*\('\?\)\([./]*\)/lib@\1/usr/$(get_libdir)/${PN}@g" "${f}"
-		sed -i -e "s@\$RealBin[^']*\('\?\)\([./]*\)/res@\1/usr/share/${PN}@g" "${f}"
+#		sed -i -e "s@\$RealBin[^']*\('\?\)\([./]*\)/lib@\1/usr/$(get_libdir)/${PN}@g" "${f}"
+#		sed -i -e "s@\$RealBin[^']*\('\?\)\([./]*\)/res@\1/usr/share/${PN}@g" "${f}"
 		sed -i -e "s@use KeePass@use File::KeePass@g" "${f}"
 	done
 
@@ -55,29 +55,39 @@ src_configure() { :; }
 src_install() {
 	rm lib/ex/KeePass.pm
 
-	dobin "${PN}"
+#	dobin "${PN}"
 
-	doman "res/${PN}.1"
-	rm "res/${PN}.1"
+#	doman "res/${PN}.1"
+#	rm "res/${PN}.1"
 
-	insinto /usr/share/applications
-	doins "res/${PN}.desktop"
-	rm "res/${PN}.desktop"
+#	insinto /usr/share/applications
+#	doins "res/${PN}.desktop"
+#	rm "res/${PN}.desktop"
 
-	newicon -s scalable res/asbru-logo.svg "${PN}".svg
-	newicon -s 24 res/asbru-logo-24.png "${PN}".png
-	newicon -s 256 res/asbru-logo-24.png "${PN}".png
-	newicon -s 64 res/asbru-logo-24.png "${PN}".png
+#	newicon -s scalable res/asbru-logo.svg "${PN}".svg
+#	newicon -s 24 res/asbru-logo-24.png "${PN}".png
+#	newicon -s 256 res/asbru-logo-24.png "${PN}".png
+#	newicon -s 64 res/asbru-logo-24.png "${PN}".png
 
-	newbashcomp res/asbru_bash_completion "${PN}"
-	rm res/asbru_bash_completion
+#	newbashcomp res/asbru_bash_completion "${PN}"
+#	rm res/asbru_bash_completion
 
-	insinto "/usr/$(get_libdir)/${PN}"
-	doins -r lib/*
+#	insinto "/usr/$(get_libdir)/${PN}"
+#	doins -r lib/*
 
-	insinto "/usr/share/${PN}"
-	doins -r res/*
-	doins -r utils
+#	insinto "/usr/share/${PN}"
+#	doins -r res/*
+#	doins -r utils
+
+	mkdir -p /{opt/asbru,usr/share/pixmaps,usr/share/man/man1,usr/share/applications,usr/bin,etc/bash_completion.d}
+	cp -rp res utils lib /opt/asbru/
+	cp -p res/asbru_bash_completion /etc/bash_completion.d/asbru_bash_completion
+	cp res/asbru-logo-64.png /usr/share/pixmaps/${PN}.png
+	cp res/${PN}.desktop /usr/share/applications/
+	gzip -c res/${PN}.1 > /usr/share/man/man1/${PN}.1.gz
+	cp -p ${PN} /opt/asbru/${PN}
+	chmod 755 /opt/asbru/${PN}
+	ln -sf /opt/asbru/${PN} $pkgdir/usr/bin/${PN}
 }
 
 pkg_postinst() {
