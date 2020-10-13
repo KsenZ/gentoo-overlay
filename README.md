@@ -9,10 +9,11 @@ My Gentoo overlay
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.mask/asbru-cm /etc/portage/package.mask/asbru-cm
 
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.unmask/asbru-cm /etc/portage/package.unmask/asbru-cm
+
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.use/asbru-cm /etc/portage/package.use/asbru-cm
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.accept_keywords/asbru-cm /etc/portage/package.accept_keywords/asbru-cm
-
 ### Keyword for Rambox
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.accept_keywords/rambox /etc/portage/package.accept_keywords/rambox
