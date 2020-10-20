@@ -23,3 +23,7 @@ My Gentoo overlay
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.accept_keywords/komodo-edit-bin /etc/portage/package.accept_keywords/komodo-edit-bin
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.use/komodo-edit-bin /etc/portage/package.use/komodo-edit-bin
+
+### Keywords for PyRadio
+
+> \# ln -s /var/lib/layman/ksenz/Documentation/package.accept_keywords/pyradio /etc/portage/package.accept_keywords/pyradio
