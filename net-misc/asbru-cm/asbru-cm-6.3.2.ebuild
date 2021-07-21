@@ -82,7 +82,7 @@ src_install() {
 }
 
 pkg_postinst() {
-	sed -e '1742,1753s/^/#/' -i /usr/lib64/perl5/vendor_perl/5.30.3/Gtk3.pm
+	sed -e '1742,1753s/^/#/' -i /usr/lib64/perl5/vendor_perl/5.34/Gtk3.pm
 	gnome2_icon_cache_update
 }
 

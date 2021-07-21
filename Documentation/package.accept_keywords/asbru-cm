@@ -1,8 +1,3 @@
-dev-perl/Gnome2-Vte **
 net-misc/asbru-cm **
 dev-perl/Net-ARP **
-dev-perl/Gnome2-GConf **
-dev-perl/File-KeePass **
-dev-perl/Gnome2 **
-dev-perl/Gtk2 **
-dev-perl/Gnome2-VFS **
+>=dev-lang/perl-5.34 **

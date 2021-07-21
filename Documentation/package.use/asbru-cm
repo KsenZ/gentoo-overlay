@@ -1,2 +1,1 @@
-dev-lang/perl ithreads
->=dev-libs/ossp-uuid-1.6.2-r6 perl
+dev-libs/ossp-uuid perl

@@ -7,13 +7,15 @@ My Gentoo overlay
 
 ### Keywords, USE flags and mask packages for Ásbrú Connection Manager
 
-> \# ln -s /var/lib/layman/ksenz/Documentation/package.mask/asbru-cm /etc/portage/package.mask/asbru-cm
-
-> \# ln -s /var/lib/layman/ksenz/Documentation/package.unmask/asbru-cm /etc/portage/package.unmask/asbru-cm
-
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.use/asbru-cm /etc/portage/package.use/asbru-cm
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.accept_keywords/asbru-cm /etc/portage/package.accept_keywords/asbru-cm
+
+Then rebuild world for use perl 5.34
+> \# emerge -uDN world
+And install Asbru-cm
+> \# emerge -av asbru-cm
+
 ### Keyword for Rambox
 
 > \# ln -s /var/lib/layman/ksenz/Documentation/package.accept_keywords/rambox /etc/portage/package.accept_keywords/rambox
