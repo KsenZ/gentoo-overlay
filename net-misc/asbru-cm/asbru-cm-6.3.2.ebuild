@@ -13,32 +13,34 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-IUSE="freerdp mosh rdesktop vnc webdav"
+IUSE="uucp rdesktop freerdp mosh tigervnc"
 
-RDEPEND="freerdp? ( net-misc/freerdp )
-	mosh? ( net-misc/mosh )
+RDEPEND="uucp? ( net-misc/taylor-uucp )
 	rdesktop? ( net-misc/rdesktop )
-	vnc? ( net-misc/tigervnc )
-	webdav? ( net-misc/cadaver )
+	freerdp? ( net-misc/freerdp )
+	mosh? ( net-misc/mosh )
+	tigervnc? ( net-misc/tigervnc )
 	dev-libs/ossp-uuid[perl]
 	x11-libs/libwnck
-	dev-perl/Crypt-Blowfish
-	dev-perl/Crypt-CBC
-	dev-perl/Crypt-Rijndael
-	dev-perl/Expect
-	dev-perl/File-KeePass
-	dev-perl/Gnome2-GConf
-	dev-perl/Gnome2
-	dev-perl/Gnome2-Vte
-	dev-perl/Gtk3
-	dev-perl/Gtk3-SimpleList
-	dev-perl/gtk2-gladexml
-	dev-perl/Gtk2-Unique
-	dev-perl/IO-Stty
-	dev-perl/IO-Tty
-	dev-perl/Net-ARP
+	x11-libs/vte
+	dev-perl/Cairo
+	dev-perl/glib-perl
+	dev-perl/Pango
 	dev-perl/Socket6
-	dev-perl/YAML"
+	dev-perl/Expect
+	dev-perl/YAML
+	dev-perl/Crypt-CBC
+	dev-perl/Crypt-Blowfish
+	dev-perl/Gtk3
+	dev-perl/Net-ARP
+	net-misc/openssh
+	dev-perl/Crypt-Rijndael
+	dev-perl/XML-Parser
+	media-libs/libcanberra
+	dev-perl/Gtk3-SimpleList
+	x11-libs/libwnck
+	dev-perl/IO-Stty
+	dev-perl/IO-Tty"
 DEPEND="${RDEPEND}"
 
 src_prepare() {
