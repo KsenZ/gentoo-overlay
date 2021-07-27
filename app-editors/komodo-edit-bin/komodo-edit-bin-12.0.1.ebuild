@@ -1,11 +1,11 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="4"
+EAPI=7
 
 inherit eutils
 
-MY_BUILD="14424"
+MY_BUILD="18441"
 
 DESCRIPTION="Freeware advanced editor for dynamic and Web languages"
 HOMEPAGE="http://www.activestate.com/products/komodo_edit"
@@ -26,7 +26,7 @@ RDEPEND="${DEPEND}"
 
 RESTRICT="mirror"
 
-use amd64 && MY_ARCH='x86_64' || MY_ARCH=${ARCH}
+MY_ARCH=${ARCH}
 S="${WORKDIR}/Komodo-Edit-${PV}-${MY_BUILD}-linux-${MY_ARCH}"
 
 src_install() {
