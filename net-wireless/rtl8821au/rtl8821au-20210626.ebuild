@@ -11,7 +11,7 @@ HOMEPAGE="https://github.com/morrownr/8821au"
 SRC_URI="https://github.com/morrownr/8821au/archive/${COMMIT}.tar.gz -> rtl8821au-${PV}.tar.gz"
 
 LICENSE="GPL-2"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 
 DEPEND="virtual/linux-sources"
 
